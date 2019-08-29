@@ -1,0 +1,93 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black!important;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  background-color: black;
+}
+
+div {
+  box-sizing: border-box;
+  background-color: black;
+}
+
+h1, h2, h3, h4, h5, p {
+  margin: 0;
+}
+
+.container {
+  margin: auto;
+  width: 50%;
+  border: 3px solid white;
+  padding: 50px;
+  color: white;
+}
+
+.introText {
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.section{
+  margin-top: 40px; 
+}
+
+ul {
+  counter-reset: index;
+  max-width: 300px;
+}
+
+li {
+  counter-increment: index;
+  display: flex;
+  align-items: center;
+  padding: 12px 0;
+  box-sizing: border-box;
+}
+  li::before {
+    content: counters(index, ".", decimal-leading-zero);
+    font-size: 1.5rem;
+    text-align: right;
+    font-weight: bold;
+    min-width: 50px;
+    padding-right: 12px;
+    font-variant-numeric: tabular-nums;
+    align-self: flex-start;
+    background-image: linear-gradient(to bottom, aquamarine, orangered);
+    background-attachment: fixed;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+
+  /* Element separation */
+  li + li {
+    border-top: 1px solid rgba(255,255,255,0.2);
+  }
+
+.alert-warning {
+  color: #D8000C;
+  background-color: #FFD2D2;
+}
+
+.footer{
+  font-size: 10px;
+  float: right;
+}
+@media screen and (max-width: 700px) {
+
+  .container {
+    margin: unset;
+    border: unset;
+    width: 100%;
+    padding: 40px;
+  }
+}
+
