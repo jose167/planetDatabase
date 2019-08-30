@@ -28,7 +28,7 @@ namespace PlanetDatabase.Controllers
     };
 
       // GET: api/<controller>
-      [HttpGet("/api/Values/")]
+      [HttpGet("/api/planets/")]
     public IEnumerable<Planet> Get()
     {
         return planets;

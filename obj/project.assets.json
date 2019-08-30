@@ -11800,23 +11800,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jose.malave\\.nuget\\packages\\": {},
+    "C:\\Users\\jose\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jose.malave\\Desktop\\projects\\PlanetDatabase\\PlanetDatabase\\PlanetDatabase.csproj",
+      "projectUniqueName": "C:\\Users\\jose\\source\\repos\\planetDatabase\\PlanetDatabase.csproj",
       "projectName": "PlanetDatabase",
-      "projectPath": "C:\\Users\\jose.malave\\Desktop\\projects\\PlanetDatabase\\PlanetDatabase\\PlanetDatabase.csproj",
-      "packagesPath": "C:\\Users\\jose.malave\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jose.malave\\Desktop\\projects\\PlanetDatabase\\PlanetDatabase\\obj\\",
+      "projectPath": "C:\\Users\\jose\\source\\repos\\planetDatabase\\PlanetDatabase.csproj",
+      "packagesPath": "C:\\Users\\jose\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jose\\source\\repos\\planetDatabase\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\jose.malave\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jose\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11824,7 +11824,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://10.221.225.199:8081/artifactory/api/nuget/nuget-aggregator": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -11861,7 +11860,6 @@
             "version": "[2.1.1, )"
           },
           "Microsoft.NETCore.App": {
-            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true

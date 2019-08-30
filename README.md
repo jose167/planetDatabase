@@ -1,8 +1,8 @@
 # PlanetDatabase
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.2.
-ASP.NET CORE  2.1
-NODE.JS 10.16
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.2, 
+ASP.NET CORE  2.1, 
+NODE.JS 10.16, 
 
 Open in the command line the application: 
 
@@ -24,8 +24,7 @@ or Run from visual studio 17
 ## Development in watch mode 
 
 open two terminals: 
-1- Run dotnet watch run 
-2- Run ng serve --proxy-config proxy.config.json for a dev server. Navigate to `http://localhost:4200/`. 
+1- Run dotnet watch run /   2- Run ng serve --proxy-config proxy.config.json for a dev server. Navigate to `http://localhost:4200/`. 
 
 ## Code scaffolding
 
@@ -44,6 +43,6 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-##info come from
+##info
 http://faculty.montgomerycollege.edu/gyouth/FP_examples/student_examples/karlos_russell/final_table.html
 https://solarsystem.nasa.gov/

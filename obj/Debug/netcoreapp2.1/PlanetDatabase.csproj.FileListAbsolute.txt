@@ -12,3 +12,17 @@ C:\Users\jose.malave\Desktop\projects\PlanetDatabase\PlanetDatabase\obj\Debug\ne
 C:\Users\jose.malave\Desktop\projects\PlanetDatabase\PlanetDatabase\obj\Debug\netcoreapp2.1\PlanetDatabase.RazorTargetAssemblyInfo.cache
 C:\Users\jose.malave\Desktop\projects\PlanetDatabase\PlanetDatabase\obj\Debug\netcoreapp2.1\PlanetDatabase.dll
 C:\Users\jose.malave\Desktop\projects\PlanetDatabase\PlanetDatabase\obj\Debug\netcoreapp2.1\PlanetDatabase.pdb
+C:\Users\jose\source\repos\planetDatabase\bin\Debug\netcoreapp2.1\PlanetDatabase.deps.json
+C:\Users\jose\source\repos\planetDatabase\bin\Debug\netcoreapp2.1\PlanetDatabase.runtimeconfig.json
+C:\Users\jose\source\repos\planetDatabase\bin\Debug\netcoreapp2.1\PlanetDatabase.runtimeconfig.dev.json
+C:\Users\jose\source\repos\planetDatabase\bin\Debug\netcoreapp2.1\PlanetDatabase.dll
+C:\Users\jose\source\repos\planetDatabase\bin\Debug\netcoreapp2.1\PlanetDatabase.pdb
+C:\Users\jose\source\repos\planetDatabase\obj\Debug\netcoreapp2.1\PlanetDatabase.csprojAssemblyReference.cache
+C:\Users\jose\source\repos\planetDatabase\obj\Debug\netcoreapp2.1\PlanetDatabase.csproj.CoreCompileInputs.cache
+C:\Users\jose\source\repos\planetDatabase\obj\Debug\netcoreapp2.1\PlanetDatabase.RazorAssemblyInfo.cache
+C:\Users\jose\source\repos\planetDatabase\obj\Debug\netcoreapp2.1\PlanetDatabase.RazorAssemblyInfo.cs
+C:\Users\jose\source\repos\planetDatabase\obj\Debug\netcoreapp2.1\PlanetDatabase.AssemblyInfoInputs.cache
+C:\Users\jose\source\repos\planetDatabase\obj\Debug\netcoreapp2.1\PlanetDatabase.AssemblyInfo.cs
+C:\Users\jose\source\repos\planetDatabase\obj\Debug\netcoreapp2.1\PlanetDatabase.RazorTargetAssemblyInfo.cache
+C:\Users\jose\source\repos\planetDatabase\obj\Debug\netcoreapp2.1\PlanetDatabase.dll
+C:\Users\jose\source\repos\planetDatabase\obj\Debug\netcoreapp2.1\PlanetDatabase.pdb

@@ -17,12 +17,12 @@
   <div class="section">
     <h1>Planets in the Solar System and Distances from the Sun </h1>
     <ul>
-      <li *ngFor="let value of apiValues">
-        {{ value.name  }}:  {{ value.distanceSun }} {{ value.unit }}
+      <li *ngFor="let planet of apiPlanets">
+        {{ planet.name  }}:  {{ planet.distanceSun }} {{ planet.unit }}
       </li>
     </ul>
   </div>
-  <div *ngIf="IsError">
+  <div *ngIf="hasError">
     <div class="alert-warning">
       <span class="errorTitle">{{ errorMessage.statusText}}</span>
       <p>{{ errorMessage.error }}</p>

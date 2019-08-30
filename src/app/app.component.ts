@@ -1,4 +1,4 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
 
@@ -13,20 +13,19 @@ export class AppComponent implements  OnInit {
 
   constructor(private _httpService: HttpClient) { }
 
-  apiValues: string[] = [];
+  apiPlanets: string[] = [];
   errorMessage: string;
-  IsError: boolean = false;
+  hasError: boolean = false;
 
   ngOnInit():void {
 
-
-    this._httpService.get('/api/Values')
+    this._httpService.get('/api/planets')
       .subscribe((result: any[]) => {
-        this.apiValues = result;
+        this.apiPlanets = result;
       },
       error => {
         this.errorMessage = error;
-        this.IsError = true;
+        this.hasError = true;
         console.log(this.errorMessage);
       }
      );
